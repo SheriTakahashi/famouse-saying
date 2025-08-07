@@ -12,30 +12,33 @@
       <div class="emotions">
         <p>今の気分は？</p>
         <div class="emotion-buttons">
-          <button class="happy">
+          <button class="emotion-button happy" data-emotion="happy">
             ハッピー
             <i class="fa-solid fa-face-laugh-beam" style="color: #ffd43b"></i>
           </button>
-          <button class="sad">
+          <button class="emotion-button sad" data-emotion="sad">
             悲しい
             <i class="fa-solid fa-face-sad-tear" style="color: #ffd43b"></i>
           </button>
-          <button class="lazy">
+          <button class="emotion-button lazy" data-emotion="lazy">
             やる気なし
             <i class="fa-solid fa-face-meh" style="color: #ffd43b"></i>
           </button>
-          <button class="angly">
+          <button class="emotion-button angry" data-emotion="angry">
             怒っている
             <i class="fa-solid fa-face-angry" style="color: #ffd43b"></i>
           </button>
-          <button class="broken">
+          <button class="emotion-button broken" data-emotion="broken">
             挫けそう
             <i class="fa-solid fa-face-dizzy" style="color: #ffd43b"></i>
           </button>
         </div>
         <div class="quote">
           <p>あなたにぴったりな言葉は・・・</p>
-          <p class="quote-author"></p>
+          <div class="quote-display">
+            <p class="quote-text"></p>
+            <p class="quote-author"></p>
+          </div>
           <button class="again-button">もう一度</button>
         </div>
       </div>
